@@ -4,8 +4,7 @@ import joblib
 import matplotlib.pyplot as plt
 
 # Load model
-model = joblib.load('../models/sales_model.pkl')
-
+model = joblib.load('models/sales_model.pkl')
 st.title("Swiggy Sales Forecasting Dashboard")
 
 # Inputs
